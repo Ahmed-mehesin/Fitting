@@ -80,7 +80,26 @@
             font-weight: 700;
             letter-spacing: 1px;
         }
-    
+    .back-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
         /* Main Content */
         main {
             padding: 50px 0;
@@ -93,7 +112,7 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-        
+
         .page-title {
             text-align: center;
             margin-bottom: 40px;
@@ -717,6 +736,10 @@
                     <h1>HDPE FITTINGS</h1>
                 </div>
             </div>
+            <a href="https://ahmed-mehesin.github.io/Pipes-Fitting/" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back to pipes
+            </a>
         </div>
     </header>
     
